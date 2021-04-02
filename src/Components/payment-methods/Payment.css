@@ -1,0 +1,11 @@
+.payment-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.payment-wrapper img{
+    padding-right: 10px;
+}
+

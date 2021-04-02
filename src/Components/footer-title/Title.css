@@ -1,0 +1,33 @@
+.title-underline{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    z-index: 1;
+}
+
+.title-underline::after{
+    position: absolute;
+    height: 13px;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    background-color: rgb(249, 93, 122);
+    left: 0px;
+    bottom: 10px;
+}
+
+@media only screen and (max-width: 800px){
+    h1 {
+        font-size: 40px;
+    }
+
+    .title-underline::after{
+        position: absolute;
+        height: 6px;
+        z-index: -1;
+        content: "";
+        background-color: rgb(249, 93, 122);
+        left: 0px;
+        bottom: 6px;
+    }
+}

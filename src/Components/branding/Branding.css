@@ -1,0 +1,36 @@
+.circle-checkmark{
+    width: 22px;
+    height: 22px; 
+    display: inline-flex;
+    -webkit-box-pack: center; 
+    justify-content: center; 
+    -webkit-box-align: center; 
+    align-items: center;
+    background-color: rgb(55, 195, 164);
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.branding-wrapper{
+    max-width: 30%;
+    margin-right: 10%;
+}
+
+.branding-description{
+    margin-bottom: 45px;
+}
+
+@media only screen and (max-width: 800px){
+    .branding-wrapper{
+        max-width: 100%;
+        margin-right: 0%;
+    }
+
+    .ulCheckMark{
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+}

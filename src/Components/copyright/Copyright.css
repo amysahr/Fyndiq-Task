@@ -1,0 +1,31 @@
+.copyright-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.copyright-logo{
+    width: 130px;
+    margin-right: 10px;
+}
+
+.copyright-text{
+    margin-left: 10px; 
+}
+
+.copyright-items{
+    line-height: 0px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px){
+    .copyright-logo{
+        display: none;
+    }
+
+    .copyright-text{
+        text-align: center;
+    }
+}
